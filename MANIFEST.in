@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mustakbal *.css
+recursive-include mustakbal *.csv
+recursive-include mustakbal *.html
+recursive-include mustakbal *.ico
+recursive-include mustakbal *.js
+recursive-include mustakbal *.json
+recursive-include mustakbal *.md
+recursive-include mustakbal *.png
+recursive-include mustakbal *.py
+recursive-include mustakbal *.svg
+recursive-include mustakbal *.txt
+recursive-exclude mustakbal *.pyc

@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2022-09-01 13:55:28.178584",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "component_name",
+  "exist"
+ ],
+ "fields": [
+  {
+   "fieldname": "component_name",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Component Name",
+   "options": "Component Name",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "exist",
+   "fieldtype": "Check",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Exist"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-21 16:53:29.020068",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "Project Component",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

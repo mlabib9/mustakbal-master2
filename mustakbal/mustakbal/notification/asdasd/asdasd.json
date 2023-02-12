@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "creation": "2022-10-19 11:03:53.494889",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Sales Request",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>{{ _(\"Hello\") }},</p>",
+ "modified": "2022-10-19 11:03:53.494889",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "asdasd",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  },
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "All"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "asddasdasdasdasdasddasdasfgfdhggjfghj"
+}

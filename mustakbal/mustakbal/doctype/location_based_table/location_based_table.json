@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-10-30 18:20:42.430157",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "salary_components",
+  "value",
+  "is_expense_claim"
+ ],
+ "fields": [
+  {
+   "fieldname": "salary_components",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Salary Components",
+   "options": "Salary Component",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Value",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_expense_claim",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Expense Claim",
+   "read_only": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-30 18:20:42.430157",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "Location Based Table",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

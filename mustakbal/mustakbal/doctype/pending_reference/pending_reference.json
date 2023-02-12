@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-10-17 14:34:05.964027",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reason",
+  "dead_line"
+ ],
+ "fields": [
+  {
+   "fieldname": "reason",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reason",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "dead_line",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Dead Line",
+   "read_only": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-17 14:35:32.321751",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "Pending Reference",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

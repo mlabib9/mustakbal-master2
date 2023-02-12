@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-10-29 15:51:49.071972",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "call",
+  "event",
+  "meeting",
+  "sentreceived_email",
+  "other"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "meeting",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Meeting",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "event",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Event",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "call",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Call",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sentreceived_email",
+   "fieldtype": "Int",
+   "label": "Sent/Received Email"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Int",
+   "label": "Other"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-30 11:59:02.324093",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "Lead Activities",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

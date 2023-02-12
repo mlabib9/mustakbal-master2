@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{#####}",
+ "creation": "2022-08-31 15:45:19.690539",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "company",
+  "party_type",
+  "party",
+  "column_break_5",
+  "sector",
+  "visit_type",
+  "location",
+  "opportunity",
+  "city"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "visit_type",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Visit Type",
+   "options": "Visit Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sector",
+   "options": "Industry Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "party_type",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Party Type",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "party",
+   "fieldtype": "Dynamic Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name Of",
+   "options": "party_type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "opportunity",
+   "fieldtype": "Link",
+   "label": "opportunity ",
+   "options": "Opportunity"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "City"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-25 14:32:24.475694",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "Visit",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

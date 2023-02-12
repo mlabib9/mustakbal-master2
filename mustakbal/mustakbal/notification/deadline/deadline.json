@@ -1,0 +1,35 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.dead_line==nowdate()",
+ "creation": "2022-10-19 10:38:37.438941",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Sales Request",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>{{_(\"Sales Request\")}}</h3>\n<p>{{ _(\"Pending time is Over  :- \") }} {{ doc.name }}</p>",
+ "modified": "2022-10-19 10:51:51.061662",
+ "modified_by": "Administrator",
+ "module": "Mustakbal",
+ "name": "DeadLine",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  },
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Accounts Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "dead_line",
+ "subject": "Time of Dead_line is Over",
+ "value_changed": "dead_line"
+}
